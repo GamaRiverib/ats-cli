@@ -1,0 +1,26 @@
+{
+  "name": "ats-cli",
+  "version": "1.0.0",
+  "description": "Generate secret",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "prepublish": "npm run build",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "José Gamaliel Rivera Ibarra <gama.rivera@gmail.com> (https://github.com/GamaRiverib)",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^12.7.1",
+    "typescript": "^3.5.3"
+  },
+  "dependencies": {
+    "commander": "^2.20.0",
+    "crypto": "^1.0.1"
+  },
+  "bin": {
+    "ats-cli": "./dist/index.js"
+  }
+}
