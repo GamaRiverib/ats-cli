@@ -17,8 +17,7 @@
     "typescript": "^3.5.3"
   },
   "dependencies": {
-    "commander": "^2.20.0",
-    "crypto": "^1.0.1"
+    "commander": "^2.20.0"
   },
   "bin": {
     "ats-cli": "./dist/index.js"
